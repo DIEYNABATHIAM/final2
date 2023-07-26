@@ -1,0 +1,405 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+.navbar1{
+    margin: 0;
+    padding: 0;
+}
+.navbar .leftside{
+    flex: 50px;
+    height: 100%;
+    width: 100%;
+    display: flex;
+    align-items: center;
+    padding-left: 70%;
+    
+}
+.fead{
+    position: relative;
+    margin-top: 15px;
+    margin-right: 50%; 
+    display: block; 
+
+}
+.navbar .rightside{
+    flex: 50px;
+    margin-left: 35px;
+    height: 100%;
+    display: flex;
+    margin: 2rem;
+    
+}
+
+.titre0{
+   position: relative;
+ margin-top: -15%;
+    padding-right: 70%;
+    font-weight: bold;
+    
+    
+}
+.titre h1{
+    font-weight: bold;
+}
+.titre4{
+    margin: 62px;
+}
+.side{
+    padding-left: 80%;   
+}
+.zone{
+    padding-right: 80%;  
+    margin-top: 25px; 
+}
+.box-pad{
+    margin: 2rem;
+    display: flex;
+    justify-content: center;
+    text-align: center;
+    margin: 2rem;
+}
+.box-un h5{
+color: rgb(25, 59, 232);
+}
+.box-pad.box-un {
+    margin-top: 12px;
+}
+.box-un{
+    background: #fffefe;
+    margin: 25em;
+    width: 150px;
+    padding-right: 17%;
+    box-shadow: 10px 5px 5px rgb(94, 91, 91);
+    height: 9vh;
+    border-radius: 15px;
+    margin: 2rem;
+    text-align: center;
+    align-items: center;
+    border-radius: 10px;
+}
+.box-un img{
+margin-top: 20px;
+margin-left: 35px;
+}
+.box-pad2{
+    display: flex;
+    justify-content: center;
+   
+    margin-right: 35%;
+    
+}
+.box-un2 img{
+    padding-right: 60%;   
+}
+.box-un2 h5{
+    padding-right: 60%;   
+}
+.box-un2{
+    background: #d4fbd9;
+    margin: 4em;
+    width:40vh;
+    height: 20vh;  
+    
+}
+.box h2{
+    font-weight: bold;
+}
+.box h6{
+    margin-top: 35px;
+    display: flex;
+    
+}
+.box-pad3{
+    margin: 2rem;
+    display: flex;
+    justify-content: center;
+    margin-right: 25%;
+    
+}
+.box-un3 img{
+    width: 45px;
+height: 35px;
+top: 25px;
+margin-right: 64%;
+
+}
+.box-un3 h5{
+    margin-left: -120px;
+    font-weight: bold;
+}
+
+.box-un3{
+    background: #cbf3da;
+    margin: 8em;
+    width:280px;
+    height: 20vh;
+    margin: 3rem;
+    text-align: center;
+    border-radius: 10px;
+}
+.back{
+    margin: 3em;
+    background: #f9f1f1;
+    width: 30%;
+    height: 50vh;
+    margin-top: 200px;
+    border-radius: 30px;
+    align-items: center;
+        
+}
+.back img{
+    margin-top:-40%;
+    text-align: center;
+}
+.titre2{
+    position: relative;
+ margin-top: -30%;
+ margin-right: 5rem;
+    padding-left: 70%;
+   
+
+}
+.blog{
+   
+    width:290%;
+    height: 201%;
+    margin-top: -52%;
+   
+
+    
+}
+.blog img{
+    width: 37px;
+height: 37px;
+
+
+}
+.images {
+    text-align: end;
+    margin-top: -10%;
+    text-align: left;
+   display: flex;
+   margin: 3rem;
+   margin-left: 15%;
+}
+.images h3{
+    margin-top: 180px;
+    font-weight: bold;
+    margin-right: 35px;
+    
+    
+    
+}
+.images img{
+    width: 65%;
+    height: 40%;
+    margin-top: 60%;
+    margin-right: -15px;   
+}
+
+.bord{
+    background: #c1fac5;
+    width:100%;
+    height: 70%;
+    text-align: left;
+    display: flex;
+    justify-content: center;
+    
+
+    
+    
+}
+.bord2{
+    background: #f3f8f3;
+    width:30%;
+    margin: 4rem;
+    height: 130px;
+    margin-left: 35px;
+    border-radius: 10px;
+}
+.bord2 img{
+    width: 44px;
+    height: 44px;
+   border-radius: 15px;
+    
+}
+.tout{
+    margin: 6rem;
+    display: flex;
+    justify-content: center;
+    text-align: center;
+}
+.droite{
+   
+   height: 40%;
+    padding-left: 40%;
+}
+.titre3{
+    text-align: left;
+    justify-content: center;
+}
+.titre3 h2{
+    font-weight: bold;
+}
+
+@media screen and  (max-width: 568px){
+    .box-pad{
+        flex-direction: column;
+        overflow-x: auto;
+    }
+
+    .box-un{
+        
+       
+    }
+    .box-pad2{
+        
+        flex-direction: column;
+       
+    }
+    .box-un2{
+         margin-left: -12px;
+    }
+    .box{
+
+        
+    }
+    .box-pad3{
+        display: flex;
+        flex-direction: column;
+        
+        
+    }
+    .box3-un{
+      
+        
+    }
+    .back1{
+        display: flex;
+        margin-top: -25%;
+        flex-direction: column;
+        
+    }
+    .back img{
+        width: 250px;    }
+    .logo2 img{
+       
+        
+    }
+    .side{
+        margin-top: 2rem;
+        margin-left: -300px;
+    }
+    .sid{
+        display: flex;
+        flex-direction: column;
+    }
+    .images{
+        display: flex;
+        flex-direction: column;
+    }
+    .bord{
+        display: flex;
+       margin-left: -5px;
+        flex-direction: column;
+       
+        
+    }
+    .bord2{
+        width: 80%;
+    }
+    .leftside img{
+       margin-left:-250px;
+       margin-top: -65px;
+        
+    }
+    .logo2 img{
+        width: 225px;
+        height: 250px;
+    }
+    .blog img{
+        width: 125px;
+        height: 150px;
+  
+   }
+    .titre{
+        padding: 14px;
+       margin-top: 142px;
+    
+       
+        
+    }
+    .titre2{
+        margin-top: 55%;
+        margin-left: -200px;
+    
+    }
+    .titre3{
+        
+        margin-right: 380%;
+    
+    }
+    .droite{
+        margin-top: 500px;
+        margin-left: -900px;
+    }
+    .droite img{
+    height: 200px;
+    width: 100px;
+    }
+    .navbar1{
+        
+overflow-x: auto;
+overflow-x: auto;
+    }
+}
+
+@media screen and (max-width:1024px){
+    .leftside{
+       margin-left: -25%;
+    }
+    .box-pad{
+        display: flex;
+        flex-direction: column;
+    }
+    .box-un{
+        width: 90%;
+    }
+    .box-pad2{
+        margin: 2rem;
+        margin-left: 45px;
+        
+    }
+    .box-un3{
+        width: 95%;
+    }
+    .box-pad3{
+        flex-direction: column;
+        
+    }
+    
+    .images{
+        display: flex;
+        flex-direction: column;
+    }
+    .bord{
+      display: flex;
+      width: 400px;
+      flex-direction: column;
+     }
+    .bord2{
+        width: 80%;
+        
+    }
+ .titre3{
+    margin-left: 25%;
+ }
+ .droite img{
+    height: 182px;
+ }
+
+ .droite{
+    margin-right: 10%;
+ }
+}
